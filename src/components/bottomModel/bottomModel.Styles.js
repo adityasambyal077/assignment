@@ -1,0 +1,82 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+
+    containerMain:{
+        paddingHorizontal:20,
+        paddingVertical:15
+    },
+    header:{
+        flexDirection:'row',
+        justifyContent:'space-between'
+    },
+filter:{
+    fontSize:18,
+    color:'#676767'
+},
+reset:{
+    fontSize:18,
+    color:'#96c8b7'
+},
+starRange:{
+    fontSize:22,
+    color:'black',
+    marginTop:25, 
+    fontWeight:'bold'
+},
+starRangeContainer:{
+    marginTop:15,
+    flexDirection:'row',
+    justifyContent:'space-between'
+},
+innerWrapper:{
+    flexDirection:'row'
+},
+differentRanges:{
+    color:'black',
+    fontSize:15,
+    alignSelf:'center'
+},
+slider:{
+    width: 350, 
+    height:20,
+    marginTop:20
+},
+sliderRange:{
+    color:'#e0dee4',
+    fontSize:15
+},
+setRange:{
+    color:'black',
+    fontSize:15
+},
+innerContainer:{
+    marginTop:20,
+    flexDirection:'row',
+    justifyContent:'space-around'
+},
+stars:{
+    color:'black',
+    fontSize:15,
+    alignSelf:'flex-end'
+},
+beds:{
+    color:'black',
+    fontSize:15
+
+},
+button:{
+    width:350,
+    height:50,
+    backgroundColor:'#3a51ae',
+    marginTop:40,
+    borderRadius:15,
+    alignSelf:'center',
+     justifyContent: "center",
+    },
+    buttonText:{
+        color:'white',
+        textAlign:'center',
+        fontSize:16
+    }
+})

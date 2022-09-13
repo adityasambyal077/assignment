@@ -1,0 +1,27 @@
+{
+    "country":[{
+            "title":"Mascow, Russia",
+            "subtitle":"This is timezone for Mascow"
+},
+{
+    "title":"India, Delhi",
+    "subtitle":"This is timezone for Delhi"
+
+},
+{
+    "title":"USA, Newyork",
+    "subtitle":"This is timezone for NewYork"
+
+}
+
+],
+"cards":[{
+    "name":"VIP"
+},
+{
+    "name":"VIP++"
+},
+{
+    "name":"VIP+"
+}]
+}

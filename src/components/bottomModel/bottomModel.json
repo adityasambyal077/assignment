@@ -1,0 +1,33 @@
+{
+    "starRange":[{
+        "stars":"5.0"
+       
+},
+{
+    "stars":"4.0"
+},
+{
+    "stars":"3.0"
+},
+{
+    "stars":"2.0"
+}
+    ],
+    "requirement":[{
+        "beds":"Any"
+    },
+    {
+        "beds":"1"
+    },
+    {
+        "beds":"2"
+    },
+    {
+        "beds":"3"
+    },
+    {
+        "beds":"4"
+    }
+   
+]
+}

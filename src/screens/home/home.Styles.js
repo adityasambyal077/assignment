@@ -1,0 +1,156 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+ container:{
+    flex:1 ,
+    backgroundColor:'#0f1410',
+    paddingHorizontal:20,
+    paddingTop:30
+ },
+ headerIcons:{
+    justifyContent:'space-between',
+    flexDirection:'row',
+    marginTop:10
+ },
+ usernameContainer:{
+    marginTop:25,
+    flexDirection:'row'
+},
+userName:{
+    marginTop:3,
+    fontSize:18,
+    color:'#8c8e8e'
+},
+header:{
+    marginTop:10,
+    fontSize:33,
+    color:'white'
+},
+optionsContainer:{
+    marginTop:25,
+    flexDirection:'row',
+    width:'100%'
+},
+rentOption:{
+backgroundColor:'#282d29',
+width:'50%',
+padding:15, 
+borderTopLeftRadius:10,
+borderBottomLeftRadius:10
+},
+rent:{
+    fontSize:18,
+    color:'white',
+    textAlign:'center'
+},
+buyOption:{
+    backgroundColor:'#202020',
+    width:'50%',
+    padding:15,
+    borderTopRightRadius:10,
+    borderBottomRightRadius:10
+},
+buy:{
+    fontSize:20,
+    color:'#434343',
+    textAlign:'center'
+},
+locationContainer:{
+    flexDirection:'row',
+    width:'100%',
+    marginTop:15
+},
+locationWrapper:{
+width:'80%', 
+padding:20,
+backgroundColor:'#202020',
+borderTopLeftRadius:10,
+borderBottomLeftRadius:10
+},
+location:{
+    fontSize:20,
+    color:'white'
+},
+country:{
+    fontSize:15,
+    color:'#3a3a3a'
+},
+locationIconContainer:{
+    width:'20%', 
+    borderTopRightRadius:10,
+    borderBottomRightRadius:10,
+    backgroundColor:'#282d29',
+    padding:20
+},
+locationIcon:{
+    marginTop:8,
+    textAlign:'center'
+},
+recentContainer:{
+    flexDirection:"row",
+    justifyContent:'space-between',
+    marginTop:40
+},
+searches:{
+    fontSize:20,
+    color:'white'
+},
+seeAll:{
+fontSize:15,
+ color:'#434343'
+},
+timezoneContainer:{
+    flexDirection:'row',
+    paddingHorizontal:5,
+    marginTop:20
+},
+timezoneWrapper:{
+    paddingVertical:25,
+    backgroundColor:'#1e1e1e',
+    paddingHorizontal:20,
+    borderTopLeftRadius:10,
+    borderBottomLeftRadius:10
+},
+cityTimezoneWrapper:{
+    backgroundColor:'#171918',
+    paddingVertical:25,
+    paddingHorizontal:35,
+     borderTopRightRadius:10,
+     borderBottomRightRadius:10
+    },
+    city:{
+        fontSize:20,
+        color:'white'
+    },
+    timezone:{
+        color:'#3a3a3a',
+        fontSize:14
+    },
+    recomendations:{
+        fontSize:20,color:'white',
+        marginTop:30
+    },
+    cardsContainer:{
+        flexDirection:'row',
+        paddingHorizontal:5,
+        marginTop:20
+    },
+    cardWrapper:{
+        height:190,
+        width:190,
+        backgroundColor:'#292d2a',
+        borderRadius:10
+    },
+    vip:{
+        color:'white',
+        padding:10,
+        alignSelf:'flex-end',
+        backgroundColor:'#1e201f',
+        position:'absolute',
+        right:10,
+        top:10
+    },
+    end:{
+        fontSize:40
+    }
+});
